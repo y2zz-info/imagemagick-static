@@ -1,0 +1,38 @@
+{
+  "name": "@y2zz/imagemagick-static",
+  "version": "0.0.1",
+  "description": "imagemagick static binaries for Mac OSX and Linux and Windows.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y2zz-info/imagemagick-static.git"
+  },
+  "keywords": [
+    "imagemagick",
+    "static",
+    "library",
+    "binary",
+    "binaries",
+    "mac",
+    "linux",
+    "windows"
+  ],
+  "author": "Y2zz <yangyunzhou@foxmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/y2zz-info/imagemagick-static/issues"
+  },
+  "homepage": "https://github.com/y2zz-info/imagemagick-static#readme",
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "@derhuerst/http-basic": "^8.2.1",
+    "compressing": "^1.5.1",
+    "https-proxy-agent": "^5.0.0",
+    "progress": "^2.0.3"
+  }
+}
