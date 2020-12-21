@@ -118,12 +118,12 @@ function unCompress(source, target, isDelete) {
 function getStaticUrl() {
   // windows
   if (os.platform() === "win32") {
-    return "https://imagemagick.org/download/binaries/ImageMagick-7.0.10-51-portable-Q16-HDRI-x86.zip";
+    return "https://github.com/y2zz-info/imagemagick-static/releases/download/0.0.1/ImageMagick-7.0.10-52-portable-Q16-HDRI-x86.zip";
   }
 
   // macos
   if (os.platform() === "darwin") {
-    return "https://imagemagick.org/download/binaries/ImageMagick-x86_64-apple-darwin20.1.0.tar.gz";
+    return "https://github.com/y2zz-info/imagemagick-static/releases/download/0.0.1/ImageMagick-x86_64-apple-darwin20.1.0.tar.gz";
   }
 }
 
