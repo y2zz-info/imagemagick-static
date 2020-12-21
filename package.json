@@ -1,6 +1,6 @@
 {
   "name": "@y2zz/imagemagick-static",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "imagemagick static binaries for Mac OSX and Linux and Windows.",
   "main": "index.js",
   "scripts": {
